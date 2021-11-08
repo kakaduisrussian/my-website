@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header::before{
+content: 'contact email: 18504@uktc-bg.com' ;
+background: aqua;
+display: block;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  border: solid #000 2px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-block: 30px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+p{
+float: left;
+color: #55d6aa;
+
+}
+
+.myinsta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 3px solid #55d6aa;
+  margin: 0;
+}
+
+p{
+  position: relative;
+  top: 65px;
+  right: 500px;
+}
+
+h4{
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  color: #55d6aa;
+}
+h6{
+  position: fixed;
+  bottom: 0;
+  right: 6px;
+  color: #55d6aa;
+}
+
+pre{
+  position: relative;
+  padding-left: 165px;
+  bottom: 0; 
+  color: #55d6aa;
+  padding-top: 150px;
+  font-size: 24px;
+}
